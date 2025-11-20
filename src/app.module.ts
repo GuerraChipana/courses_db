@@ -16,7 +16,7 @@ import { TeacherAssignmentModule } from './teacher-assignment/teacher-assignment
         password: process.env.DB_PASSWORD,
         database: process.env.DB_NAME,
         autoLoadEntities: true,
-        synchronize: false,
+        synchronize: true,
       }),
     }),
     CourseModule,
